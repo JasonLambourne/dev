@@ -1,0 +1,1 @@
+This directory is for exercises from the Python Crash Course Book.
