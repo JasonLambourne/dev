@@ -23,6 +23,8 @@ print(section_splitter)
 #bool
 x = 0
 y = -1
-print('bool will treat 0 as false, and any value as true')
+print('bool will treat 1 or any non 0 length string\\list as True, and any 0 length string//list or 0 int//float as False')
 print('x = ' + str(x) + ' and then bool(x) = ' + str(bool(x)) + ',if you don\'t believe me? Check the code homie...')
 print('y = ' + str(y) + ' and then bool(y) = ' + str(bool(y)) + ',if you don\'t believe me? Check the code homie...')
+
+
