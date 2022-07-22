@@ -1,0 +1,48 @@
+{
+	"name": "CandyShack",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "KaimaynerAzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "2020-04.csv",
+				"container": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Retailer",
+				"type": "String"
+			},
+			{
+				"name": "SkuCode",
+				"type": "String"
+			},
+			{
+				"name": "Product",
+				"type": "String"
+			},
+			{
+				"name": "SalesMonth",
+				"type": "String"
+			},
+			{
+				"name": "SalesValue",
+				"type": "String"
+			},
+			{
+				"name": "UnitsSold",
+				"type": "String"
+			}
+		]
+	}
+}
