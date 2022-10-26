@@ -5,3 +5,6 @@ def make_pizza(size, *toppings):
         print("- " + topping)
 
 make_pizza(32,'Mushrooms','Pepporoni','Olives','Ham','Onions','Peppers','Anchovies','Ground Beef')
+
+#Comments are used with hashtags
+
